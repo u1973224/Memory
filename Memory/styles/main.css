@@ -42,6 +42,11 @@ button.menu-object:hover:not(:active){
 	height: 85px;
 }
 
+canvas {
+    display: block;
+    margin: auto;
+}
+
 .image{
 	display:flex;
 	justify-content: center;
