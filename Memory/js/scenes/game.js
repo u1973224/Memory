@@ -20,7 +20,7 @@ class GameScene extends Phaser.Scene {
     create (){	
 		console.log("entra a create")
 		let totescartes = ['co', 'co', 'cb', 'cb', 'sb', 'sb', 'so', 'so', 'tb', 'tb', 'to', 'to'];
-		this.cameras.main.setBackgroundColor(0xbababa);
+		this.cameras.main.setBackgroundColor(0xC3D6B0);
 		var json = localStorage.getItem("config") || '{"cards":2,"dificulty":"hard"}';
 		var options_data = JSON.parse(json);
 		var cuantosPares = options_data.cards;
